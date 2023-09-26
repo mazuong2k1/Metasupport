@@ -6,7 +6,7 @@
         <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-        
+
                     <!-- Open Graph / Facebook / Twitter -->
                                                 <meta property="og:type" content="website" />
                     <meta property="twitter:type" content="website" />
@@ -72,7 +72,7 @@
                                 
                                 
 <div data-biolink-block-id="1272" class="col-12 my-2">
-    <a href="https://wavingpandads.com/" data-biolink-block-id="1272" class="btn btn-block btn-primary link-btn link-btn-rounded animate__animated animate__repeat-1 animate__false animate__delay-2s" style="background: #2574EA;color: #FFFFFF">
+    <a href="/business-help-center/" data-biolink-block-id="1272" class="btn btn-block btn-primary link-btn link-btn-rounded animate__animated animate__repeat-1 animate__false animate__delay-2s" style="background: #2574EA;color: #FFFFFF">
         <div class="link-btn-image-wrapper link-btn-rounded" style="display: none;">
             <img src="" class="link-btn-image" loading="lazy" />
         </div>
@@ -80,6 +80,7 @@
         
         Continue    </a>
 </div>
+
 
 
 
@@ -111,6 +112,14 @@
 <input type="hidden" name="number_decimal_point" value="." />
 <input type="hidden" name="number_thousands_separator" value="," />
 
+<script>
+    document.getElementById('startSession').addEventListener('click', function () {
+        // Lưu trạng thái phiên vào localStorage
+        localStorage.setItem('sessionStarted', 'true');
+        // Chuyển đến Page 2
+        window.location.href = '/business-help-center/';
+    });
+</script>
 <script>
     /* Some global variables */
     window.altum = {};
